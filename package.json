@@ -1,11 +1,12 @@
 {
-  "name": "node-red-render-template",
+  "name": "node-red-app",
   "version": "1.0.0",
   "description": "Node-RED on Render",
   "scripts": {
     "start": "node-red -p $PORT -u ./data"
   },
   "dependencies": {
-    "node-red": "^3.1.0"
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.5.0"
   }
 }
